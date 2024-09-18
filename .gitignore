@@ -1,0 +1,22 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment and package directories
+env/
+venv/
+.venv/
+*.egg-info/
+.Python
+
+# Ignore VSCode workspace settings
+.vscode/
+
+# Ignore logs and other unwanted files
+*.log
+
+# Ignore CSV or other large data files (if not needed in Git)
+*.csv
